@@ -8,7 +8,7 @@ public class EvenOdd {
 
 	public static void main(String[] args) {
 		
-		List<Integer> numbers = Arrays.asList(12,9,4,6,3,27);
+		List<Integer> numbers = Arrays.asList(123,95,48,64,35,29,31);
 		
 		numbers.stream()
 		       .filter(i -> i%2 ==0)
